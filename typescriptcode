@@ -1,15 +1,1 @@
-"use strict";
-var Student = /** @class */ (function () {
-    function Student(firstName, middleInitial, lastName) {
-        this.firstName = firstName;
-        this.middleInitial = middleInitial;
-        this.lastName = lastName;
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
-    }
-    return Student;
-}());
-function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-var user = new Student("Jane", ".", "Uses");
-console.log(greeter(user));
+<script src="https://gist.github.com/vasilispalilis/80e99358d4525f3928c293e3d56e3ba0.js"></script>
